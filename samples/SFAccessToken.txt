@@ -1,0 +1,18 @@
++Name SFOAuthToken
++Request
+POST https://login.salesforce.com/services/oauth2/token
++Content-type application/x-www-form-urlencoded
++Body
+grant_type=password&client_id=someClientId&client_secret=someClientSecret&username=some@email.com&password=somepassword
+
++Response
++Content-type application/json
++Body
+{
+    "id": "https://login.salesforce.com/id/someID",
+    "issued_at": "1408399825003",
+    "token_type": "Bearer",
+    "instance_url": "https://na15.salesforce.com",
+    "signature": "someEncodedSignature",
+    "access_token": "someAccessToken"
+}

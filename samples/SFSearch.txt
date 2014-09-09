@@ -1,0 +1,22 @@
++Name SFSearch
++Request
+GET https://na15.salesforce.com/services/data/v31.0/search/?q=FIND+%7BRaymond%7D
+
++Headers
+Authorization:Bearer someAccessToken
+
++Response 200 Content-Type application/json
++Body
+[ {
+  "attributes" : {
+    "type" : "Lead",
+    "url" : "/services/data/v31.0/sobjects/Lead/id"
+  },
+  "Id" : "00Qi000000Fp8KCEAZ"
+}, {
+  "attributes" : {
+    "type" : "User",
+    "url" : "/services/data/v31.0/sobjects/User/id"
+  },
+  "Id" : "id"
+} ]
