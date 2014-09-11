@@ -1,4 +1,3 @@
-r2m-examples
-============
+## r2m-examples
 
-A collection of REST by Examples to use with the REST To Mobile software suite
+A collection of rest2mobile specifications to use with the Magnet rest2mobile plugins and CLI.
