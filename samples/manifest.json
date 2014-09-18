@@ -3,58 +3,60 @@
 		"file":"AsanaUsers.txt",
 		"description":"Get Asana users"
 	},
+
 	"DNS2IP": {
 		"file":"DNS2IP",
 		"description":"DNS 2 ZIP converter (Mashape)"
 	},
+
 	"GSUserTopics": {
 		"file":"GSUSerTopics",
 		"description":"GetSatisfaction topics"
 	},
+
 	"Nexmo": {
 		"file":"Nexmo.txt",
 		"description":"Send SMS with Nexmo",
 	},
+
 	"QRGenerator": {
 		"file":"QR_Generator",
 		"description":"QR generator (Mashape)"
 	},
+
 	"RTMovieList": {
 		"file":"RottenTomato_MovieList",
 		"description": "Get movies list from rotten tomatoes"
 	},
+
 	"RTSearchMovie": {
 		"file":"RottenTomato_SearchMovie",
 		"description":"Search movie on rotten tomatoes"
 	},
+
 	"SFAccessToken": {
 		"file":"SFAccessToken.txt",
 		"description":"Get a Salesforce access token"
 	},
+
 	"SFSearch": {
 		"file":"SFSearch.txt",
-		"description":"Search on Salesforce"
+		"description":"Perform a Salesforce search"
 	},
-	"Nexmo.txt": {
+
+	"SFQuery": {
 		"file":"SFUserQuery.txt",
-		"description":
+		"description":"Perform a Salesforce query"
 	},
-	"Nexmo.txt": {
+
+	"TexasHoldem": {
 		"file":"Texas_Holdem",
-		"description":
-	},
-	"Nexmo.txt": {
-		"file":"YouTube.txt",
-		"description":
-	},
-		"Nexmo.txt": {
-		"file":"YouTube.txt",
 		"description":
 	},
 
 	"YouTube": {
 		"file":"YouTube.txt",
-		"description":
+		"description":"Get YouTube video"
 	},
 
 	"ESPNHeadlines": {
@@ -111,4 +113,4 @@
 		"file":"user-manager-updateUser.txt",
 		"description":"Example for PUT request"
 	},
-	}
+}
