@@ -1,116 +1,90 @@
 {
-	"AsanaUsers": {
-		"file":"AsanaUsers.txt",
-		"description":"Get Asana users"
-	},
-
-	"DNS2IP": {
-		"file":"DNS2IP",
-		"description":"DNS 2 ZIP converter (Mashape)"
-	},
-
-	"GSUserTopics": {
-		"file":"GSUSerTopics",
-		"description":"GetSatisfaction topics"
-	},
-
-	"Nexmo": {
-		"file":"Nexmo.txt",
-		"description":"Send SMS with Nexmo",
-	},
-
-	"QRGenerator": {
-		"file":"QR_Generator",
-		"description":"QR generator (Mashape)"
-	},
-
-	"RTMovieList": {
-		"file":"RottenTomato_MovieList",
-		"description": "Get movies list from rotten tomatoes"
-	},
-
-	"RTSearchMovie": {
-		"file":"RottenTomato_SearchMovie",
-		"description":"Search movie on rotten tomatoes"
-	},
-
-	"SFAccessToken": {
-		"file":"SFAccessToken.txt",
-		"description":"Get a Salesforce access token"
-	},
-
-	"SFSearch": {
-		"file":"SFSearch.txt",
-		"description":"Perform a Salesforce search"
-	},
-
-	"SFQuery": {
-		"file":"SFUserQuery.txt",
-		"description":"Perform a Salesforce query"
-	},
-
-	"TexasHoldem": {
-		"file":"Texas_Holdem",
-		"description":
-	},
-
-	"YouTube": {
-		"file":"YouTube.txt",
-		"description":"Get YouTube video"
-	},
-
-	"ESPNHeadlines": {
-		"file":"espn-headlines.txt",
-		"description":"Get ESPN headlines"
-	},
-
-	"GoogleDistance": {
-		"file":"google-distance.txt",
-		"description":"Get google distance"
-	},
-
-	"GoogleGeocode": {
-		"file":"google-geocode.rest.txt",
-		"description":"Get google geocode"
-	},
-
-	"GoogleTimeZone": {
-		"file":"google-timezone.txt",
-		"description":"Get google timezone"
-	},
-
-	"GoogleGeocode": {
-		"file":"google-geocode.rest.txt",
-		"description":"Get google geocode"
-	},
-
-	"NSScreenCast": {
-		"file":"screencast.txt",
-		"description":"nsscreencast episodes for iOS development"
-	},
-
-	"CreateUserExample": {
-		"file":"user-manager-createUser.txt",
-		"description":"Example with POST request creating a user"
-	},
-
-	"ListUsersExample": {
-		"file":"user-manager-listUsers.txt",
-		"description":"Example with GET request returning a JSON list"
-	},
-
-	"DeleteUserExample": {
-		"file":"user-manager-deleteUser.txt",
-		"description":"Example with DELETE request"
-	},
-
-	"LoginUserFormExample": {
-		"file":"user-manager-login.txt",
-		"description":"Example using POST and form request"
-	},
-
-	"UpdateUser": {
-		"file":"user-manager-updateUser.txt",
-		"description":"Example for PUT request"
-	},
+    "AsanaUsers": {
+        "file": "AsanaUsers.txt",
+        "description": "Get Asana users"
+    },
+    "DNS2IP": {
+        "file": "DNS2IP",
+        "description": "DNS 2 ZIP converter (Mashape)"
+    },
+    "GSUserTopics": {
+        "file": "GSUSerTopics",
+        "description": "GetSatisfaction topics"
+    },
+    "Nexmo": {
+        "file": "Nexmo.txt",
+        "description": "Send SMS with Nexmo"
+    },
+    "QRGenerator": {
+        "file": "QR_Generator",
+        "description": "QR generator (Mashape)"
+    },
+    "RTMovieList": {
+        "file": "RottenTomato_MovieList",
+        "description": "Get movies list from rotten tomatoes"
+    },
+    "RTSearchMovie": {
+        "file": "RottenTomato_SearchMovie",
+        "description": "Search movie on rotten tomatoes"
+    },
+    "SFAccessToken": {
+        "file": "SFAccessToken.txt",
+        "description": "Get a Salesforce access token"
+    },
+    "SFSearch": {
+        "file": "SFSearch.txt",
+        "description": "Perform a Salesforce search"
+    },
+    "SFQuery": {
+        "file": "SFUserQuery.txt",
+        "description": "Perform a Salesforce query"
+    },
+    "TexasHoldem": {
+        "file": "Texas_Holdem",
+        "description": "Play a game"
+    },
+    "YouTube": {
+        "file": "YouTube.txt",
+        "description": "Get YouTube video"
+    },
+    "ESPNHeadlines": {
+        "file": "espn-headlines.txt",
+        "description": "Get ESPN headlines"
+    },
+    "GoogleDistance": {
+        "file": "google-distance.txt",
+        "description": "Get google distance"
+    },
+    "GoogleGeocode": {
+        "file": "google-geocode.rest.txt",
+        "description": "Get google geocode"
+    },
+    "GoogleTimeZone": {
+        "file": "google-timezone.txt",
+        "description": "Get google timezone"
+    },
+    "NSScreenCast": {
+        "file": "screencast.txt",
+        "description": "nsscreencast episodes for iOS development"
+    },
+    "CreateUserExample": {
+        "file": "user-manager-createUser.txt",
+        "description": "Example with POST request creating a user"
+    },
+    "ListUsersExample": {
+        "file": "user-manager-listUsers.txt",
+        "description": "Example with GET request returning a JSON list"
+    },
+    "DeleteUserExample": {
+        "file": "user-manager-deleteUser.txt",
+        "description": "Example with DELETE request"
+    },
+    "LoginUserFormExample": {
+        "file": "user-manager-login.txt",
+        "description": "Example using POST and form request"
+    },
+    "UpdateUser": {
+        "file": "user-manager-updateUser.txt",
+        "description": "Example for PUT request"
+    }
 }
