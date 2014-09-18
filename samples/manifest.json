@@ -1,4 +1,4 @@
-{
+[
 	"AsanaUsers": {
 		"file":"AsanaUsers.txt",
 		"description":"Get Asana users"
@@ -113,4 +113,4 @@
 		"file":"user-manager-updateUser.txt",
 		"description":"Example for PUT request"
 	},
-}
+]
