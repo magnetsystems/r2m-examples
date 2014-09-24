@@ -1,14 +1,12 @@
       # This is a sample request that can be used as the Rest specification for a controller
       # Be sure to precede request example with '# Request' and example response with '# Response'
-       +name googleDistance
+       +Name googleDistance
        +Request
 
        http://maps.googleapis.com/maps/api/distancematrix/json?origins=435+Tasso+Street+Palo+Alto+CA&destinations=Embarcadero+Street+San+Francisco+CA&sensor=false&mode=driving&language=en&units=imperial
 
        # This is the expected response:
        +Response
-      +Content-type application/json
-       +Headers
        +Body
        {
          "destination_addresses" : [ "Embarcadero, 298 Market Street, San Francisco, CA 94111, USA" ],
