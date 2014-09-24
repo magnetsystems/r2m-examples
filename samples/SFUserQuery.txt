@@ -5,7 +5,7 @@ GET https://na15.salesforce.com/services/data/v31.0/query/?q=SELECT+name+from+Us
 +Headers
 Authorization:Bearer someAccessToken
 
-+Response 200 Content-Type application/json
++Response
 +Body
 {
   "totalSize" : 3,
