@@ -2,7 +2,7 @@
 +Request
 GET https://api.getsatisfaction.com/people/{userId}/followed/topics.json
 
-+Response 200 Content-Type application/json
++Response
 +Body
 {
 	"data":[{
