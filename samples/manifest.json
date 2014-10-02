@@ -86,5 +86,9 @@
     "UpdateUser": {
         "file": "user-manager-updateUser.txt",
         "description": "Example for PUT request"
+    },
+    "Earthquakes": {
+        "file": "Earthquake.txt",
+        "description": "Get list of earthquakes by magnitude"
     }
 }

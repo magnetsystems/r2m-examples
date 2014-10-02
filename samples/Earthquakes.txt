@@ -1,0 +1,34 @@
++Name getEarthquakes
+# Get the list of earthquakes for a particular year, month, and above a certain magnitude
+# See http://www.seismi.org/api/
+# For instance, try GET http://www.seismi.org/api/eqs/2011/03?min_magnitude=6
++Request
+http://www.seismi.org/api/eqs/{yyy}/{mm}?min_magnitude=6&limit=500
++Response
++Body
+
+{
+    "count": "2",
+    "earthquakes": [
+        {
+            "src": "us",
+            "eqid": "c0002fj4",
+            "timedate": "2011-03-31 07:15:30",
+            "lat": "38.9536",
+            "lon": "142.0174",
+            "magnitude": "6.2",
+            "depth": "39.6",
+            "region": "near the east coast of Honshu, Japan"
+        },
+        {
+            "src": "us",
+            "eqid": "b0001q2y",
+            "timedate": "2011-03-06 12:31:56",
+            "lat": "-18.1084",
+            "lon": "-69.3758",
+            "magnitude": "6.2",
+            "depth": "87.8",
+            "region": "Putre, Chile"
+        }
+    ]
+}
