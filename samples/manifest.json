@@ -88,7 +88,7 @@
         "description": "Example for PUT request"
     },
     "Earthquakes": {
-        "file": "Earthquake.txt",
+        "file": "Earthquakes.txt",
         "description": "Get list of earthquakes by magnitude"
     }
 }
