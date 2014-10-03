@@ -1,0 +1,17 @@
++Name twitterToken
++Request
+POST https://api.twitter.com/oauth2/token
+
++Headers
+Authorization:Basic base64_encoded_bearer_token_credentials
+Content-Type:application/x-www-form-urlencoded;charset=UTF-8
++Body
+grant_type=client_credentials
+
++Response 200 application/json
++Body
+
+{
+  "access_token": “your_access_token_returned”,
+  "token_type": "bearer"
+}

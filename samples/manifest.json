@@ -90,5 +90,9 @@
     "Earthquakes": {
         "file": "Earthquakes.txt",
         "description": "Get list of earthquakes by magnitude"
+    },
+    “TwitterToken”: {
+        "file": “twitterToken.txt",
+        "description": “Get the application-only OAuth authentication token”
     }
 }
