@@ -1,3 +1,5 @@
+# for the detail, please see https://dev.twitter.com/oauth/application-only
+
 +Name twitterToken
 +Request
 POST https://api.twitter.com/oauth2/token
