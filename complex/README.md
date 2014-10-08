@@ -4,3 +4,4 @@ For instance, try:
 ```
 r2m gen -e user-manager
 ```
+Under the mobile directory, this will create a RestController class for iOS, Javascript and Android containing the createUser, deleteUser, updateUser, and listUsers methods.
