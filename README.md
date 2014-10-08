@@ -1,6 +1,6 @@
 ## r2m-examples
 
-A collection of [rest2mobile examples](https://github.com/magnetsystems/r2m-examples/tree/master/samples) following the [REST by Example Specifications](https://github.com/magnetsystems/rest2mobile/wiki/Rest-By-Example-Specifications) to use with the Magnet rest2mobile plugins and CLI. 
+A collection of [rest2mobile examples](https://github.com/magnetsystems/r2m-examples/tree/master/samples) following the [REST by Example Specifications](https://github.com/magnetsystems/rest2mobile/wiki/Rest-By-Example-Specifications) to use with the Magnet rest2mobile plugins and [CLI](https://github.com/magnetsystems/r2m-cli). 
 
 For more information about the rest2mobile suite, check out the [rest2mobile github repo](https://github.com/magnetsystems/rest2mobile).
 
