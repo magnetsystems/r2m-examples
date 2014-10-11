@@ -67,6 +67,10 @@
         "file": "screencast.txt",
         "description": "nsscreencast episodes for iOS development"
     },
+    "ExampleWithMultipleMethods": {
+        "file": "user-manager-all.txt",
+        "description": "Example with multiple methods"
+    },
     "CreateUserExample": {
         "file": "user-manager-createUser.txt",
         "description": "Example with POST request creating a user"

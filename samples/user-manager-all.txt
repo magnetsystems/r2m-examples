@@ -1,7 +1,10 @@
 # This example defines multiple controller methods.
 # This is only supported since the 1.1.0 version
 
+#
 # Create a user 
+#
+
 +name createUser
 +Request
 POST http://ec2-54-235-127-73.compute-1.amazonaws.com:8088/rest/createUser
@@ -22,8 +25,9 @@ appId : app1
   "primaryEmailAddress" : "jim.liu@magnet.com"
 }
 
-
+#
 # Delete a user
+#
 
 +name deleteUser
 +Request
@@ -33,7 +37,9 @@ appId : app1
 
 +Response 200
 
+#
 # List users
+#
 
 +Name listUsers
 +Request
@@ -56,21 +62,9 @@ appId : app1
     "updatedTime" : "2013-12-29T20:00:00Z"
   } ]
 
-# Login
-
-+name login
-+Request
-POST http://ec2-54-235-127-73.compute-1.amazonaws.com:8088/rest/login
-+Headers
-appId : app1
-+Body
-userName=jim.liu&password=password
-
-+Response 
-+Body
-success
-
+#
 # Update a user
+#
 +name updateUser
 +Request
 PUT http://ec2-54-235-127-73.compute-1.amazonaws.com:8088/rest/updateUser
@@ -91,3 +85,20 @@ appId : app1
   "primaryEmailAddress" : "jim.liu2@magnet.com",
   "updatedTime" : "2013-12-29T20:00:00Z"
 }
+
+#
+# Login
+#
+
++name login
++Request
+POST http://ec2-54-235-127-73.compute-1.amazonaws.com:8088/rest/login
++Headers
+appId : app1
++Body
+userName=jim.liu&password=password
+
++Response 200 plain/text 
++Body 
+success
+
