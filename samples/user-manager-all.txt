@@ -98,7 +98,7 @@ appId : app1
 +Body
 userName=jim.liu&password=password
 
-+Response 200 plain/text 
++Response 
 +Body 
 success
 
