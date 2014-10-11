@@ -69,7 +69,7 @@
     },
     "ExampleWithMultipleMethods": {
         "file": "user-manager-all.txt",
-        "description": "Example with multiple methods"
+        "description": "Example with multiple methods (1.1.0+ only)"
     },
     "CreateUserExample": {
         "file": "user-manager-createUser.txt",
