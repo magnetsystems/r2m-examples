@@ -1,9 +1,9 @@
 +Name getEarthquakes
-# Get the list of earthquakes for a particular year, month, and above a certain magnitude
+# Get the list of earthquakes for a particular year (yyyy), month (mm), and above a certain magnitude
 # See http://www.seismi.org/api/
 # For instance, try GET http://www.seismi.org/api/eqs/2011/03?min_magnitude=6
 +Request
-http://www.seismi.org/api/eqs/{yyy}/{mm}?min_magnitude=6&limit=500
+http://www.seismi.org/api/eqs/{2010}/{01}?min_magnitude=6&limit=500
 +Response
 +Body
 
