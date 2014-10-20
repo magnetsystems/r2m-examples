@@ -1,4 +1,6 @@
-+Name Nexmo
+# A simple method to send message using Nexmo REST API.
+# See https://docs.nexmo.com/index.php/sms-api/send-message 
++Name sendMessage
 +Request
 GET https://rest.nexmo.com/sms/json?api_key=someApiKey&api_secret=someApiSecret&from=12069396673&to=15105551212&text=My+Msg+Test
 
