@@ -2,7 +2,7 @@
 +Request
 GET https://rest.nexmo.com/sms/json?api_key=someApiKey&api_secret=someApiSecret&from=12069396673&to=15105551212&text=My+Msg+Test
 
-+Response 200 Content-Type application/json
++Response
 +Body
 {
 	"message-count":"1",
