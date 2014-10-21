@@ -3,7 +3,7 @@
 # See http://www.seismi.org/api/
 # For instance, try GET http://www.seismi.org/api/eqs/2011/03?min_magnitude=6
 +Request
-http://www.seismi.org/api/eqs/{2010}/{01}?min_magnitude=6&limit=500
+http://www.seismi.org/api/eqs/{yyyy}/{mm}?min_magnitude=6&limit=500
 +Response
 +Body
 
