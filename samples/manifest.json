@@ -98,7 +98,7 @@
     "TwitterToken": {
         "file": "twitterToken.txt",
         "description": "Get the application-only OAuth authentication token"
-    }
+    },
     "Yo": {
         "file": "yo.txt",
         "description": "Yo REST API"
