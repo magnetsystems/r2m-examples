@@ -1,0 +1,69 @@
+#
+# The Yo REST API. See http://docs.justyo.co/v1.0/docs
+#
+
+#
+# Get the number of Yo friends
+#
++Name getYoSubscribersCount
+
++Request
+GET https://api.justyo.co/subscribers_count?api_token=123-YOUR-API-KEY-123
++Headers
++Body
+
++Response
++Body
+{"result":1}
+
+#
+# Send a yo to one friend
+#
++Name justYo
+
++Request
+POST https://api.justyo.co/yo
++Headers
++Body
+api_token=123-YOUR-API-KEY-123&username=YOUR_ID
+
++Response
++Body
+{"result":"OK"}
+
+#
+# Send a Yo to all your friends
+#
++Name yoAll
+
++Request
+POST https://api.justyo.co/yoall
++Headers
++Body
+{
+  "api_token": "123-YOUR-API-KEY-123",
+  "link": "http://www.cnn.com"
+}
+
++Response
++Body
+{}
+
+#
+# Send a Yo with link
+#
++Name yoWithLink
+
++Request
+POST https://api.justyo.co/yo
++Headers
++Body
+{
+  "username": "yourid",
+  "api_token": "123-YOUR-API-KEY-123",
+  "link": "http://en.wikipedia.org/wiki/Yo_(app)"
+}
+
++Response
++Body
+{"result":"OK"}
