@@ -1,0 +1,20 @@
++Name sendAlertSMS
++Request
+GET https://rest.nexmo.com/sc/us/alert/json?api_key={api_key}&api_secret={api_secret}&to=16365553226&template=1&server=host3&link=http://example.com/host3/mon&status-report-req=status-report-req&client-ref=client-ref
+
++Response
++Body
+{
+    "message-count":"1",
+    "messages":[
+    {
+        "to":"16502837195",
+        "message-id":"03000000580E2927",
+        "client-ref":"client_ref",
+        "status":"0",
+        "remaining-balance":"1.93760000",
+        "message-price":"0.00480000",
+        "network":"310260"
+    }
+    ]
+}

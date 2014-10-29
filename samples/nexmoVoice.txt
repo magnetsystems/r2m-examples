@@ -1,0 +1,38 @@
++Name call
++Request
+GET https://rest.nexmo.com/call/json?api_key={api_key}&api_secret={api_secret}&to={receiverNum}&from={senderId}&machine_detection={machine_detection}&machine_timeout={machine_timeout}&answer_url={answer_url}&answer_method={answer_method}&error_url={error_url}&error_method={error_method}&status_url={status_url}&status_method={status_method}
+
++Response
++Body
+{
+        "call-id":"${callId}",
+        "to":"${to}",
+        "status":"${status}",
+        "error-text":"${error-text}"
+}
+
++Name textToSpeech
++Request
+GET https://rest.nexmo.com/tts/json?api_key={api_key}&api_secret={api_secret}&to={receiverNum}&from={senderId}&text={text}&lg={language}&voice={voice}&repeat={repeat}&machine_detection={machine_detection}&machine_timeout={machine_timeout}&callback={callback}&callback_method={callback_method}
+
++Response
++Body
+{
+  "call-id":"${callId}",
+  "to":"${to}",
+  "status":"${status}",
+  "error-text":"${error-text}"
+}
+
++Name textToSpeechPrompt
++Request
+GET https://rest.nexmo.com/tts-prompt/json?api_key={api_key}&api_secret={api_secret}&to={receiverNum}&from={senderId}&text={text}&lg={language}&voice={voice}&repeat={repeat}&machine_detection={machine_detection}&machine_timeout={machine_timeout}&callback={callback}&max_digits={max_digits}&bye_text={bye_text}&pin_code={pin_code}&failed_text={failed_text}
+
++Response
++Body
+{
+  "call-id":"${callId}",
+  "to":"${to}",
+  "status":"${status}",
+  "error-text":"${error-text}"
+}

@@ -102,5 +102,41 @@
     "Yo": {
         "file": "yo.txt",
         "description": "Yo REST API"
+    },
+    "Nexmo2FactorAuth": {
+        "file": "nexmo2FactorAuth.txt",
+        "description": "Nexmo 2-factor Authentication REST API"
+    },
+    "NexmoDeveloperAPI": {
+        "file": "nexmoDeveloperAPI.txt",
+        "description": "Nexmo REST API to perform account management task"
+    },
+    "NexmoEventBasedAlert": {
+        "file": "nexmoEventBasedAlert.txt",
+        "description": "Nexmo REST API for sending event-based alert"
+    },
+    "NexmoKeywordMarketing": {
+        "file": "nexmoKeywordMarketing.txt",
+        "description": "Nexmo REST API for managing keyword marketing"
+    },
+    "NexmoMarketingCompaign": {
+        "file": "nexmoMarketingCompaign.txt",
+        "description": "Nexmo REST API for managing marketing compaign"
+    },
+    "NexmoNumberInsight": {
+        "file": "nexmoNumberInsight.txt",
+        "description": "Nexmo REST API for retrieving information about a number"
+    },
+    "NexmoSMS": {
+        "file": "nexmoSMS.txt",
+        "description": "Nexmo REST API for sending messages"
+    },
+    "NexmoUSSD": {
+        "file": "nexmoUSSD.txt",
+        "description": "Nexmo REST API for managing USSD notification"
+    },
+    "NexmoVoice": {
+        "file": "nexmoVoice.txt",
+        "description": "Nexmo REST API for calling, text to speech, etc"
     }
 }
