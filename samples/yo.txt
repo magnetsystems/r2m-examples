@@ -45,10 +45,6 @@ POST https://api.justyo.co/yoall
   "link": "http://www.cnn.com"
 }
 
-+Response
-+Body
-{}
-
 #
 # Send a Yo with link
 #
