@@ -1,0 +1,41 @@
++Name push
++Request
+GET https://rest.nexmo.com/ussd/json?api_key={api_key}&api_secret={api_secret}&from={from}&to={to}&text={text}&status-report-req={status-report-req}&client-ref={client-ref}&network-code={network-code}
+
++Response
++Body
+{
+	"message-count":"1",
+	"messages":[
+	{
+		"to":"16502837195",
+		"message-id":"03000000583914CA",
+		"client-ref":"{REF}",
+		"status":"0",
+		"remaining-balance":"1.85400000",
+		"message-price":"0.05",
+		"network":"310260"
+	}
+	]
+}
+
++Name prompt
++Request
+GET https://rest.nexmo.com/ussd-prompt/json?api_key={api_key}&api_secret={api_secret}&from={from}&to={to}&text={text}&status-report-req={status-report-req}&client-ref={client-ref}&network-code={network-code}
+
++Response
++Body
+{
+	"message-count":"1",
+	"messages":[
+	{
+		"to":"16502837195",
+		"message-id":"03000000583914CA",
+		"client-ref":"{REF}",
+		"status":"0",
+		"remaining-balance":"1.85400000",
+		"message-price":"0.05",
+		"network":"310260"
+	}
+	]
+}

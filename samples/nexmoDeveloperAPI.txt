@@ -1,0 +1,259 @@
++Name getBalance
++Request
+GET https://rest.nexmo.com/account/get-balance?api_key={api_key}&api_secret={api_secret}
+
++Response
++Body
+{"value":4.107}
+
++Name getPricing
++Request
+GET https://rest.nexmo.com/account/get-pricing/outbound?api_key={api_key}&api_secret={api_secret}&country={country}
+
++Response
++Body
+{
+    "mt":"0.03500000",
+    "country":"JE",
+    "name":"Jersey",
+    "prefix":"44",
+    "networks":[
+    {
+        "code":"23460",
+        "network":"C&W Jersey",
+        "mtPrice":"0.05",
+        "ranges":[
+            "4477003",
+            "4477007",
+            "4477008"
+        ]
+    },
+    {
+        "code":"23403",
+        "network":"Airtel Jersey",
+        "mtPrice":"0.03500000",
+        "ranges":[
+            "4478298",
+            "4478299",
+            "4478297"
+        ]
+    },
+    {
+        "code":"23450",
+        "network":"Jersey Telecom",
+        "mtPrice":"0.03500000",
+        "ranges":[
+            "4475092",
+            "4475093",
+            "4475097",
+            "4475091",
+            "4475090",
+            "447797",
+            "447911",
+            "447937"
+        ]
+    }
+    ]
+}
+
++Name getPricingByPrefix
++Request
+GET https://rest.nexmo.com/account/get-prefix-pricing/outbound/{api_key}/{api_secret}/{prefix}
+
++Response
++Body
+{
+    "count": 1,
+    "prices": [
+     {
+        "mt": "0.01100000",
+        "country": "LU",
+        "prefix": "352",
+        "networks": [
+        {
+            "network": "LUXGSM",
+            "code": "27001",
+            "mtPrice": "0.01100000"
+        },
+        {
+            "network": "Orange",
+            "code": "27099",
+            "mtPrice": "0.01100000"
+        },
+        {
+            "network": "TANGO",
+            "code": "27077",
+            "mtPrice": "0.01100000"
+        },
+        {
+            "network": "Unknown Luxembourg",
+            "code": "27000",
+            "mtPrice": "0.01100000"
+        }
+        ],
+        "name": "Luxembourg"
+        }
+     ]
+}
+
++Name settings
++Request
+POST https://rest.nexmo.com/account/settings?api_key={api_key}&api_secret={api_secret}&newSecret={new_secret}&moCallBackUrl={inbound_call_back_url}&drCallBackUrl={DLR_call_back_url}
+
++Response
++Body
+{
+    "api-secret": "secret",
+    "mo-callback-url": "mo url",
+    "dr-callback-url": "dr url"
+}
+
++Name topUp
++Request
+GET https://rest.nexmo.com/account/top-up?api_key={api_key}&api_secret={api_secret}&trx={trx}
+
++Name getAssociatedInNumbers
++Request
+GET https://rest.nexmo.com/account/numbers?api_key={api_key}&api_secret={api_secret}&index={index}&size={size}&pattern={pattern}
+
++Response
++Body
+{
+    "count":1,
+    "numbers":[
+    {
+        "country":"country-code",
+        "msisdn":"phone number",
+        "type":"type of number",
+        "features":["feature"],
+        "moHttpUrl":"inbound callback URL",
+        "voiceCallbackType": "callback type",
+        "voiceCallbackValue": "callback value"
+    }
+    ]
+}
+
++Name getAvailableInboundNumbers
++Request
+GET https://rest.nexmo.com/number/search?api_key={api_key}&api_secret={api_secret}&country={country}&pattern={search-pattern}&features={features}&index={index}&size={size}
+
++Response
++Body
+{
+    "count":1,
+    "numbers":[
+    {
+        "country":"country-code",
+        "msisdn":"phone number",
+        "type":"type of number",
+        "features":["feature"],
+        "cost":"number cost"
+    }
+    ]
+}
+
++Name buyNumber
++Request
+POST https://rest.nexmo.com/number/buy?api_key={api_key}&api_secret={api_secret}&country={country}&msisdn={msisdn}
+
++Name cancelNumber
++Request
+POST https://rest.nexmo.com/number/cancel?api_key={api_key}&api_secret={api_secret}&country={country}&msisdn={msisdn}
+
++Name updateNumberCallback
++Request
+POST https://rest.nexmo.com/number/update?api_key={api_key}&api_secret={api_secret}&country={country}&msisdn={msisdn}&moHttpUrl={url}&moSmppSysType={sysType}&voiceCallbackType={type}&voiceCallbackValue={value}&voiceStatusCallback={status}
+
++Name searchMessage
++Request
+GET https://rest.nexmo.com/search/message?api_key={api_key}&api_secret={api_secret}&id={message-id}
+
++Response
++Body
+{
+    "message-id":"id",
+    "account-id":"account",
+    "network":"network",
+    "from":"from",
+    "to":"to",
+    "body":"text",
+    "price":"price",
+    "date-received":"YYYY-MM-DD HH:MM:SS",
+    "final-status":"status",
+    "date-closed":"YYYY-MM-DD HH:MM:SS",
+    "latency":"latency in ms",
+    "type":"type"
+}
+
++Name searchMessagesByIds
++Request
+GET https://rest.nexmo.com/search/messages/{api_key}/{api_secret}?ids={id0}
++Response
++Body
+{
+    "count":1,
+    "items":
+    [
+    {
+        "message-id":"id",
+        "account-id":"account",
+        "network":"network",
+        "from":"from",
+        "to":"to",
+        "body":"text",
+        "price":"price",
+        "date-received":"YYYY-MM-DD HH:MM:SS",
+        "final-status":"status",
+        "date-closed":"YYYY-MM-DD HH:MM:SS",
+        "latency":"latency in ms","type":"type"
+        }
+    ]
+}
+
++Name searchMessagesByDate
++Request
+GET https://rest.nexmo.com/search/messages?api_key={api_key}&api_secret={api_secret}&date=YYYY-MM-DD&to={recipient}
+
++Response
++Body
+{
+    "count":1,
+    "items":
+    [
+    {
+        "message-id":"id",
+        "account-id":"account",
+        "network":"network",
+        "from":"from",
+        "to":"to",
+        "body":"text",
+        "price":"price",
+        "date-received":"YYYY-MM-DD HH:MM:SS",
+        "final-status":"status",
+        "date-closed":"YYYY-MM-DD HH:MM:SS",
+        "latency":"latency in ms","type":"type"
+    }
+    ]
+}
+
++Name searchRejectedMessages
++Request
+GET https://rest.nexmo.com/search/rejections?api_key={api_key}&api_secret={api_secret}&date=YYYY-MM-DD&to={recipient}
+
++Response
++Body
+{
+    "count":1,
+    "items":
+    [
+    {
+        "account-id":"account",
+        "from":"from",
+        "to":"to",
+        "body":"text",
+        "date-received":"YYYY-MM-DD HH:MM:SS",
+        "error-code":"error",
+        "error-code-label":"error description"
+    }
+    ]
+}

@@ -1,0 +1,14 @@
++Name getNumberInsight
++Request
+GET https://rest.nexmo.com/ni/json?api_key={api_key}&api_secret={api_secret}&number={number}&features={features}&callback={callback}&callback_timeout={callback_timeout}&callback_method={callback_method}&client_ref={client_ref}&include-intermediate-callbacks={include-intermediate-callbacks}
+
++Response
++Body
+{
+  "request_id":"requestId",
+  "number":"number",
+  "status":"status",
+  "error_text":"error"
+  "remaining-balance":"remaining-balance"
+  "request_price":"requestPrice"
+}

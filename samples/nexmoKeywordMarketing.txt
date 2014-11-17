@@ -1,0 +1,20 @@
++Name keywordMarketing
++Request
+GET https://rest.nexmo.com/sc/us/marketing/json?api_key={your_key}&api_secret={your_secret}&from={from}&keyword={keyword}&to={to}&text={text}
+
++Response
++Body
+{
+    "message-count":"1",
+    "messages":[
+    {
+        "to":"16502837195",
+        "message-id":"03000000580E2927",
+        "client-ref":"client_ref",
+        "status":"0",
+        "remaining-balance":"1.93760000",
+        "message-price":"0.00480000",
+        "network":"310260"
+    }
+    ]
+}

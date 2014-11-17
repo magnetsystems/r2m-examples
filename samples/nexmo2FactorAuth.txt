@@ -1,0 +1,19 @@
++Name enable2FactorAuth
++Request
+GET https://rest.nexmo.com/sc/us/2fa/json?api_key={api-key}&api_secret={api-secret}&to={receiverNum}&pin={pin}
+
++Response
++Body
+{
+	"message-count":"1",
+	"messages":[
+	{
+		"message-id":"03000000580F77A7",
+		"status":"0",
+		"to":"16502837195",
+		"remaining-balance":1.928,
+		"message-price":0.0048,
+		"network":"310260"
+	}
+	]
+}

@@ -1,0 +1,20 @@
++Name sendSMS
++Request
+GET https://rest.nexmo.com/sms/json?api_key={api_key}&api_secret={api_secret}&from=senderId&to=receiverNum&type=binary&text=messagebody&status-report-req={status-report-req}&client_ref={client_ref}&network-code=network_code&vcard=vcard&vcal=vcal&ttl=60000&message-class=0&body=0011223344556677&udh=06050415811581&title=MySite&url=http%3a%2f%2fwww.mysite.com&validity=86400000
+
++Response
++Body
+{
+    "message-count":"1",
+    "messages":[
+    {
+        "to":"16502837195",
+        "message-id":"03000000580E2927",
+        "client-ref":"client_ref",
+        "status":"0",
+        "remaining-balance":"1.93760000",
+        "message-price":"0.00480000",
+        "network":"310260"
+    }
+    ]
+}
